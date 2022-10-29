@@ -1,0 +1,2848 @@
+* {
+ margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+width: 100%;
+height: 100vh;
+overflow-x: hidden;
+
+}
+
+
+/* NAVBAR */
+#check {
+  display: none;
+}
+
+label #bar,
+label #close {
+  display: none;
+}
+
+#container-navbar {
+  display: flex;
+  height: 50px;
+  width: 105%;
+  box-shadow: 0px 0px 5px 0px red;
+}
+
+.box-nav {
+  display: flex;
+  margin-top: 6px;
+}
+
+.rasya-nav {
+  padding: 5px;
+  width: 40%;
+  height: 35px;
+  
+}
+
+#ulnav2 {
+  display: none;
+}
+
+.h3-nav {
+  margin-top: 3px;
+  font-size: 1.8em;
+}
+
+ul {
+  font-size: 1.4em;
+  display: flex;
+  position: absolute;  
+  right: 3%;
+  top: 2%;
+}
+
+ul li {
+  display: block;
+  margin-left: 20px;
+  text-decoration:none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+#homenav {
+  display: block;
+  color: red;
+}
+
+/* up desktop */
+.h5up1 {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  margin-left: -3px;
+}
+
+.h5up2 {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  margin-left: -3px;
+  font-size: 25px;
+}
+
+.h5up3 {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  margin-left: -3px;
+  font-size: 25px;
+}
+
+.h5up4 {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  margin-left: -3px;
+  font-size: 25px;
+}
+
+.h5up5 {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  margin-left: -3px;
+  font-size: 25px;
+}
+
+.h5up6 {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  margin-left: -3px;
+  font-size: 25px;
+}
+
+#uphome {
+  position: relative;
+  left: 1000px;
+  bottom: 90px;
+  display: none;
+  font-size: 30px;
+}
+
+#upabout {
+  position: relative;
+  left: 770px;
+  bottom: 320px;
+  display: none;
+}
+
+#upproject {
+  position: absolute;
+  right: 20%;
+  top: 170%;
+  display: none;
+  font-size:30px;
+}
+
+#upskill {
+  position: relative;
+  left: 1150px;
+  bottom: 340px;
+  display: none;
+}
+
+#upservice {
+  position: relative;
+  left:1000px;
+  bottom: 630px;
+  display: none;
+}
+
+#upcontact {
+  position: relative;
+  left: 1150px;
+  bottom: 485px;
+  display: none;
+}
+/* up desktop end */
+
+/* up mobile */
+#uphome2 {
+  display: none;
+}
+
+#upabout2 {
+  display: none;
+}
+
+#upproject2 {
+  display: none;
+}
+
+#upskill2 {
+  display: none;
+}
+
+#upservice2 {
+  display: none;
+}
+
+#upcontact2 {
+  display: none;
+}
+/* up mobile end */
+.img-nav {
+  margin-left: 40px;
+  display: flex;
+}
+
+i {
+  color: black;
+  font-size: 30px;
+}
+
+
+#icon1 {
+  animation: float 4.5s ease-in-out infinite;
+  font-size: 23px;
+}
+
+#icon2 {
+  animation: float 5s ease-in-out infinite;
+  font-size: 23px;
+  margin-left: 20px;
+}
+
+#icon3 {
+  animation: float 5.5s ease-in-out infinite;
+  font-size: 23px;
+  margin-left: 20px;
+}
+
+#icon4 {
+  animation: float 6s ease-in-out infinite;
+  font-size: 23px;
+  margin-left: 20px;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-8px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+/* NAVBAR END */
+
+/* HOME */
+#container-home {
+  padding: 40px;
+  display: flex;
+  height: 220px;
+}
+
+.box1-home {
+  width: 40%;
+  padding: 20px;
+}
+
+.h5-home {
+  font-size: 1.5em;
+}
+
+.h2-home {
+  font-size: 2.3em;
+}
+
+.phome {
+  font-size: 1.5em;
+}
+
+.img-home {
+  border-radius: 10px;
+  width:20%;
+  height: 250px;
+  margin-left: 50px;
+}
+
+
+.bgimghome {
+  background-color: lightgrey;
+  opacity: 60%;
+  width: 28%;
+  border-radius: 10px;
+  height: 180px;
+  position: relative;
+  top: 100px;
+  right: 290px;
+  z-index: -1;
+}
+
+.ul-home {
+  display: flex;
+}
+
+.li1-home {
+  display: block;
+  text-decoration: none;
+  background-color: red;
+  padding: 2px;
+  width: 140px;
+}
+
+.li2-home {
+  padding: 2px;
+  width: 140px;
+  display: block;
+  text-decoration: none;
+  border: 1px solid red;
+}
+
+.a1-home {
+  font-size:
+   1.3em;
+   width: 120%;
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 7px;
+  margin-left: 18px;
+}
+
+.a2-home {
+  text-decoration: none;
+  font-size: 1.3em;
+  padding: 7px;
+  display: block;
+  font-weight: 700px;
+  color: black;
+  margin-left: 18px;
+}
+/* HOME END */
+
+/* ABOUT */
+#h3-box {
+  padding: 40px;
+  margin-top: 20px;
+}
+
+#h3-about {
+  font-size: 2em;
+  margin-left: 20px;
+}
+
+.text-about {
+  width: 5.3%;
+  margin-left: 20px;
+  border-bottom: 2.5px solid red;
+}
+
+.p-about {
+  font-size: 20px;
+  margin-left: 60px;
+  margin-top: -30px;
+}
+
+.container-about {
+  display: flex;
+  padding: 40px;
+}
+
+.background-image {
+  background-color: red;
+  border-radius: 3px;
+  height: 350px;
+  width: 30%;
+  z-index: -1;
+  position: relative;
+  bottom: 20px;
+  right: 290px ;
+}
+
+.img-about {
+  margin-top: 20px;
+  width: 30%;
+  border:2px solid white;
+  height: 350px;
+  border-radius: 3px;
+  margin-left: 80px;
+}
+
+.box-about {
+  margin-top: 20px;
+  margin-left: -100px;
+}
+
+.h2-about {
+  font-size: 2.2em;
+}
+
+.p2-about {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.p3-about {
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+.p4-about {
+  margin-top: 15px;
+  font-size: 25px;
+}
+
+.button-about {
+  display: flex;
+  margin-top: 40px;
+}
+
+.li1-about {
+  display: block;
+  text-decoration: none;
+  background-color: red;
+  padding: 12px;
+  text-align: center;
+  width: 160px;
+}
+
+.li2-about {
+  padding: 13px;
+  width: 160px;
+  display: block;
+  text-align: center;
+  height: 20px;
+  text-decoration: none;
+  border: 1px solid red;
+}
+
+.a1-about {
+  color: white;
+  text-decoration: none;
+  font-size: 1.3em;
+}
+
+.a2-about {
+  color: black;
+  text-decoration: none;
+  font-size: 1.3em;
+}
+
+/* ABOUT END */
+
+/* LATEST projectFOLIO */
+#h3-project {
+  margin-left: 60px;
+  font-size: 2em;
+}
+
+.underlane-project {
+  border-bottom: 2px solid red;
+  width: 4.5%;
+  margin-left: 60px;
+}
+
+.p-project {
+  margin-left: 60px;
+  margin-top: 5px;
+  width: 65%;
+  font-size: 20px;
+}
+
+#nav-project {
+  display: flex;
+  margin-left: 40px;
+  margin-top: 15px;
+}
+
+#liproject1 {
+  display: block;
+  text-decoration: none;
+  margin-left:15px ;
+  font-size: 20px;
+  padding: 7px;
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: red;
+  color: white;
+}
+
+#liproject2 {
+  display:block;
+  text-decoration:none;
+  margin-left:15px ;
+  font-size: 20px;
+  padding: 7px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+#liproject3 {
+  display: block;
+  text-decoration: none;
+  margin-left:15px ;
+  font-size: 20px;
+  padding: 7px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#liproject4 {
+  display: block;
+  text-decoration: none;
+  margin-left:15px ;
+  font-size: 20px;
+  padding: 7px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* project web */
+
+.web {
+  width: 23%;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.projectweb1 {
+  display: flex;
+  margin-left: 40px;
+}
+
+.projectweb2 {
+  display: flex;
+  margin-left: 40px;
+}
+/* web end */
+
+/* logo */
+#boxlogo {
+  display: none;
+}
+
+.projectlogo1 {
+  display: flex;
+  margin-left: 40px;
+}
+
+.projectlogo2 {
+  display: flex;
+  margin-left: 40px;
+}
+
+.logo {
+  width: 20%;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+/* logo end */
+
+/* graphic */
+#boxgraphic {
+  display: none;
+}
+
+.projectgraphic1 {
+  display: flex;
+  margin-left: 40px;
+}
+
+.projectgraphic2 {
+  display: flex;
+  margin-left: 40px;
+}
+
+#graphic {
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 20%;
+  height: 200px;
+}
+/* grapic end */
+
+/* ux */
+#boxux {
+  display: none;
+}
+
+.projectux1 {
+  display: flex;
+  margin-left: 40px;
+}
+
+.projectux2 {
+  display: flex;
+  margin-left: 40px;
+}
+
+.ux {
+  width: 20%;
+  margin-left: 10px;
+  margin-top: 10px;
+  height: 250px;
+}
+/* ux end */
+
+/* skill */
+#container-skill {
+  margin-top: 40px;
+  margin-left: 40px;
+  width: 94%;
+  height: 400px;
+  background-color: whitesmoke;
+}
+
+.box-skill {
+  padding: 50px;
+}
+
+.kotakskill {
+  display: flex;
+}
+
+.boxskill1 {
+  width: 90%;
+}
+
+.boxskill2 {
+  width: 90%;
+}
+
+.h2-skill {
+  font-size: 2em;
+}
+
+.underlineskill {
+  border-bottom: 2px solid red;
+  width: 4.1%;
+}
+
+.pskill {
+  width: 70%;
+  margin-top: 10px;
+  font-size: 1.3em;
+}
+
+/* skill html */
+.html {
+  background-color: lightgray;
+  height: 20px;
+  width: 90%;
+  border-radius: 10px;
+}
+
+.valuehtml {
+  background-image: linear-gradient(pink,red);
+  height: 20px;
+  width: 90%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.h5-html {
+  display: flex;
+  width: 100%;
+  font-size: 1.5em;
+  margin-left: 5px;
+}
+
+.h5html2 {
+  margin-left: 420px;
+}
+/* skill html end */
+
+/* skill css */
+.css {
+  background-color: lightgray;
+  height: 20px;
+  width: 90%;
+  border-radius: 10px;
+}
+
+.valuecss {
+  background-image: linear-gradient(pink,red);
+  height: 20px;
+  width: 80%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.h5-css {
+  display: flex;
+  margin-top: 20px;
+  font-size: 1.5em;
+  width: 100%;
+  margin-left: 5px;
+}
+
+.h5css2 {
+  margin-left: 443px;
+}
+/* skill css end */
+
+/* skill js */
+.js {
+  background-color: lightgray;
+  height: 20px;
+  width: 90%;
+  border-radius: 10px;
+}
+
+.valuejs {
+  background-image: linear-gradient(pink,red);
+  height: 20px;
+  width: 20%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.h5-js {
+  display: flex;
+  margin-top: 20px;
+  width: 100%;
+  font-size: 1.5em;
+  margin-left: 5px;
+}
+
+.h5js2 {
+  margin-left: 382px;
+}
+/* skill js end */
+
+/* skill development */
+.development {
+  background-color: lightgray;
+  height: 20px;
+  width: 90%;
+  border-radius: 10px;
+}
+
+.valuedevelopment {
+  background-image: linear-gradient(pink,red);
+  height: 20px;
+  width: 70%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.h5-development {
+  display: flex;
+  margin-left: 5px;
+  font-size: 1.5em;
+  width: 100%;
+}
+
+.h5development2 {
+  margin-left: 326px;
+}
+/* skill web development end */
+
+/* skill graphic */
+.graphic {
+  background-color: lightgray;
+  height: 20px;
+  width: 90%;
+  border-radius: 10px;
+  margin-top: 0;
+  margin-left: 0;
+}
+
+.valuegraphic {
+  background-image: linear-gradient(pink,red);
+  height: 20px;
+  width: 60%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.h5-graphic {
+  display: flex;
+  margin-top: 20px;
+  font-size: 1.5em;
+  width: 100%;
+  margin-left: 5px;
+}
+
+.h5graphic2 {
+  margin-left: 348px;
+}
+/* skill graphic design end */
+
+/* skill web design */
+.webdesign {
+  background-color: lightgray;
+  height: 20px;
+  width: 90%;
+  border-radius:10px;
+}
+
+.valuewebdesign {
+  background-image: linear-gradient(pink,red);
+  height: 20px;
+  width: 80%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.h5-webdesign {
+  display: flex;
+  margin-top: 20px;
+  font-size: 1.5em;
+  width: 100%;
+  margin-left: 5px;
+}
+
+.h5webdesign2 {
+  margin-left: 380px;
+}
+/* skill web design end */
+
+#h3service {
+  margin-top: 50px;
+  margin-left: 60px;
+  font-size: 2em;
+}
+
+.underlineservice {
+  border-bottom:2px solid red;
+  margin-left: 60px;
+  width: 4%;
+}
+
+.pservice {
+  margin-left: 60px;
+  margin-top: 8px;
+  width: 60%;
+  font-size: 1.5em;
+}
+
+.service {
+  margin-left: 60px;
+  margin-top: 40px;
+  display: flex;
+}
+
+/* box 1 service */
+
+/* web design */
+.webdesignservice {
+  background-color: whitesmoke;
+  width: 200px;
+  height: 150px;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.iconweb {
+  width: 75px;
+  margin-left: 65px;
+}
+
+.h4webservice {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 1.3em;
+}
+
+.pwebicon {
+  width: 120%;
+  font-size: 1.2em;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+/* web design end */
+
+/* web development */
+.developmentdesignservice {
+  background-color: whitesmoke;
+  width: 200px;
+  height: 150px;
+  padding: 50px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.icondevelopment {
+  width: 75px;
+  margin-left: 65px;
+}
+
+.h4developmentservice {
+  text-align: center;
+  margin-top: 5px;
+  width: 100%;
+  font-size: 1.2em;
+}
+
+.pdevelopmenticon {
+  width: 120%;
+  margin-left: -10px;
+  font-size: 1.3em;
+  margin-top: 5px;
+}
+/* web development end */
+
+/* marketing */
+.marketingservice {
+  background-color: whitesmoke;
+  width: 200px;
+  height: 150px;
+  padding: 50px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+.iconmarketing {
+  width: 75px;
+  margin-left: 65px;
+}
+
+.h4marketingservice {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 1.2em;
+}
+
+.pmarketingicon {
+  width: 120%;
+  font-size: 1.2em;
+  margin-left: -10px;
+  margin-top: 5px;
+}
+/* marketing end */
+/* box 1 service end */
+
+/* box 2 service */
+
+/* photography */
+.photographyservice {
+  background-color: whitesmoke;
+  width: 200px;
+  height: 150px;
+  padding: 50px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.iconphotography {
+  width: 75px;
+  margin-left: 65px;
+}
+
+.h4photographyservice {
+  text-align: center;
+  font-size: 1.2em;
+  margin-top: 5px;
+}
+
+.pphotographyicon {
+  width: 120%;
+  font-size: 1.2em;
+  margin-left:-10px;
+  margin-top: 5px;
+}
+/* photography end */
+
+/* copy paste */
+.copyservice {
+  background-color: whitesmoke;
+  width: 200px;
+  height: 150px;
+  padding: 50px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+.iconcopy {
+  width: 75px;
+  margin-left: 60px;
+}
+
+.h4copyservice {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 1.2em;
+}
+
+.pcopyicon {
+  width: 120%;
+  font-size: 1.2em;
+  margin-left: -10px;
+  margin-top: 5px;
+}
+/* copy paste end */
+
+/* ux design */
+.uxservice {
+  background-color: whitesmoke;
+  width: 200px;
+  height: 150px;
+  padding: 50px;
+  margin-left: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.iconux {
+  width: 75px;
+  margin-left: 70px;
+}
+
+.h4uxservice {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 1.2em;
+}
+
+.puxicon {
+  width: 120%;
+  font-size: 1.2em;
+  margin-left: -10px;
+  margin-top: 5px;
+}
+/* marketing end */
+/* box 2 service end */
+
+.boxbg {
+  margin-top: 50px;
+  width: 100%;
+  height: 200px;
+  background-image: linear-gradient(to right, rgba(231, 76, 60,.8), rgba(231, 76, 60,.8)), url('asets/images/procreator-ux-design-studio-VzJjPuk53sk-unsplash.jpg');
+}
+
+.boxangka {
+  display: flex;
+  margin-top: 40px;
+  position: relative;
+  left: 220px;
+  color: white;
+}
+
+.angka {
+  margin-left: 80px;
+  font-weight: 700;
+  font-size: 2.5em;
+}
+
+.boxhuruf {
+  display: flex;
+  margin-top: 10px;
+  color: white;
+  font-size: 1.5em;
+  position: relative;
+  left: 280px;
+}
+
+
+.huruf2 {
+  margin-left: 25px;
+}
+
+.huruf3 {
+  margin-left: 20px;
+}
+
+.huruf4 {
+  margin-left: 20px;
+}
+
+
+/* CLIENT */
+.h3client {
+  margin-top: 40px;
+  margin-left: 60px;
+  font-size: 2em;
+}
+
+.underlineclient {
+  border-bottom: 2px solid red;
+  margin-left: 60px;
+  width: 4%;
+}
+
+.pclient {
+  margin-left: 60px;
+  margin-top: 10px;
+  width: 60%;
+  font-size: 1.5em;
+}
+
+.boxclient {
+  margin-left: 50px;
+  margin-top: 30px;
+  display: flex;
+}
+
+.kotakclient {
+  background-color:whitesmoke;
+  width: 94%;
+  margin-left: 40px;
+}
+
+
+.fclient1 {
+  display: flex;
+  font-size: 1.5em;
+}
+
+.underlineclient1 {
+  margin-left: 3px;
+  border-bottom: 2px solid red;
+  width: 13%;
+}
+
+.h4client1 {
+  margin-top: 30px;
+  font-size: 1.5em;
+}
+
+.pclient1 {
+  width: 70%;
+  font-size:12px;
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+.containerclient {
+  margin-left: 15px;
+}
+
+.imgclient1 {
+  width: 90%;
+  height: 80px;
+  border: 2px solid whitesmoke;
+  position: relative;
+  z-index: 2;
+  bottom: 40px;
+}
+
+.bgclient1 {
+  width: 90%;
+  height: 80px;
+  background-color: red;
+  z-index: 1;
+  position: relative;
+  top: 25px;
+  left: -15px;
+}
+
+.starclient1 {
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.p2client1 {
+  margin-top: 15px;
+  font-size:0.8em;
+
+
+}
+
+.imgstar {
+  margin-top: 20px;
+  width: 10%;
+}
+
+.h3update {
+  margin-top: 40px;
+  margin-left: 60px;
+  font-size: 2em;
+}
+
+.underlineupdate {
+  border-bottom: 2px solid red;
+  margin-left: 60px;
+  width: 5.4%;
+}
+
+.pupdate {
+  margin-top: 10px;
+  margin-left: 60px;
+  width: 60%;
+  font-size: 1.3em;
+}
+
+.containerupdate {
+  background-color: whitesmoke;
+  margin-top: 20px;
+  width: 95%;
+  height: 550px;
+  margin-left: 32.5px;
+}
+
+.boxupdate {
+  display: flex;
+}
+
+/* box update1 */
+
+.tgl {
+  color: white;
+  background-color: red;
+  width: 20%;
+  border-radius: 3px;
+  padding: 4px;
+  opacity: 90%;
+  font-size: 18px;
+  text-align: center;
+  z-index: 1;
+  position:relative;
+  top: 75px;
+  left: 40px;
+}
+
+.rapat1 {
+  color: white;
+  background-color: red;
+  opacity: 90%;
+  font-size: 22px;
+  border-radius: 0px 5px 5px 0px;
+  width: 30%;
+  text-align: center ;
+  z-index: 1;
+  position: relative;
+  top: 300px;
+  left: 40px;
+}
+
+.imgupdate1 {
+  width: 85%;
+  height: 322px;
+  border-radius: 5px 5px 0px 0px;
+  margin-left: 40px;
+}
+
+.h4update1 {
+  margin-left: 39px;
+  margin-top: 5px;
+  font-size: 1.4em;
+}
+
+.pupdate2 {
+  margin-left: 44px;
+  margin-top:5px;
+  width: 70%;
+  font-size: 17px;
+}
+/* box update1 end */
+
+/* box update2 */
+.tgl2 {
+  color: white;
+  background-color: red;
+  width:20%;
+  border-radius: 3px;
+  padding: 4px;
+  opacity: 90%;
+  font-size: 18px;
+  text-align: center;
+  z-index: 1;
+  position:relative;
+  top: 75px;
+  left: 40px;
+}
+
+.rapat2 {
+  color: white;
+  background-color: red;
+  opacity: 90%;
+  font-size: 22px;
+  border-radius: 0px 5px 5px 0px;
+  width: 25%;
+  text-align: center ;
+  z-index: 1;
+  position: relative;
+  top: 300px;
+  left: 40px;
+}
+
+.imgupdate2 {
+  width: 85%;
+  border-radius: 5px 5px 0px 0px;
+  margin-left: 40px;
+  height: 323px;
+}
+
+.h4update2 {
+  margin-left: 39px;
+  margin-top: 5px;
+  font-size: 1.4em;
+}
+
+.pupdate3 {
+  margin-left: 44px;
+  margin-top:5px;
+  width: 70%;
+  font-size: 17px;
+}
+/* box update2 end */
+
+
+/* contact me */
+#h3contact {
+  margin-top: 40px;
+  margin-left: 60px;
+  font-size: 2em;
+}
+
+.underlinecontact {
+  margin-left: 60px;
+  border-bottom: 2px solid red;
+  width: 5.2%;
+}
+
+.pcontact {
+  margin-top: 6px;
+  margin-left: 60px;
+  width: 60%;
+  font-size: 1.2em;
+}
+
+.containercontact {
+  display: flex;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  width: 95%;
+  height: 400px;
+  margin-top: 30px;
+  margin-left: 32.5px;
+}
+
+.box1contact {
+  margin-top: 60px;
+  margin-left: 40px;
+  width: 50%;
+}
+
+.acontact {
+  color: black;
+  display: flex;
+  text-decoration: none;
+  width: 120%;
+}
+
+.imgwa {
+  width: 7%;
+}
+
+.h5contactme {
+  margin-left: 15px;
+  margin-top: 2px;
+  width: 100%;
+  font-size: 22px;
+}
+
+.acontact2 {
+  display: flex;
+  margin-top: 70px;
+  text-decoration: none;
+  color: black;
+}
+
+.imggmail {
+  width: 10%;
+}
+
+.h5contactme2 {
+    margin-left: 15px;
+    margin-top: 17px;
+    width: 100%;
+    font-size: 22px;
+}
+
+.acontactme3 {
+  display: flex;
+  margin-top: 50px;
+  text-decoration: none;
+  color: black;
+}
+
+.imglokasi {
+  width: 10%;
+}
+
+.h5contactme3 {
+  margin-top: 23px;
+  margin-left: 15px;
+  font-size: 22px;
+}
+
+
+/* box 2 contact */
+.box2contact {
+  margin-top: 60px;
+  margin-left: 60px;
+}
+
+input {
+  border-top: none;
+  height: 30px;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1.5px solid gray;
+  background-color: whitesmoke;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+textarea {
+  margin-top: 20px;
+  height: 70px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1.5px solid gray;
+  width: 100%;
+  background-color: whitesmoke; 
+  font-family: 'Times New Roman', Times, serif;
+}
+
+input::placeholder {
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+}
+
+textarea::placeholder {
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+}
+
+
+.licontact {
+  display: block;
+  text-decoration: none;
+  font-size:20px;
+  margin-top: 45px;
+  background-color: red;
+  color: white;
+  width: 40%;
+  height: 40px;
+  border: none;
+  text-align: center;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+hr {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.containerend {
+  margin-top: 50px;
+  margin-left: 60px;
+  display: flex;
+}
+
+.end1 {
+  width: 20%;
+}
+
+.logoend {
+  display: flex;
+}
+
+.rendimg {
+  width: 20%;
+}
+
+.pend1 {
+  width: 70%;
+  font-size: 0.8em;
+  margin-top: 15px;
+  color: #444;
+}
+/* end1 end */
+
+/* end 2 */
+.end2 {
+  width: 20%;
+}
+
+.endhome {
+  margin-top: 20px;
+}
+
+.aend {
+  display: block;
+  text-decoration: none;
+  color: #444;
+  margin-top: 5px;
+}
+
+
+/* end3 */
+.end3 {
+  width: 35%;
+}
+
+.pend33 {
+  margin-top: 20px;
+  color: #444;
+  width: 150px;
+  font-size: 0.9em;
+}
+
+.h5end3 {
+  width: 100%;
+}
+
+.pend3 {
+  color: #444;
+  margin-top: 15px;
+}  
+
+/* end 4 */
+.h5end4 {
+  color: #444;
+}
+
+.pend44 {
+  font-size: 15px;
+  margin-top: 20px;
+  color: #444;
+}
+
+.pend4 {
+  color: #444;
+  margin-top: 5px;
+}
+
+.last {
+  font-size: 0.8em;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#bar,
+#close {
+  display: none;
+}
+
+
+/*  responsive */
+
+@media screen and (max-width:767px) {
+  html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+
+  body{
+    overflow-x: hidden;
+    width: 100%;
+    height: 100vh;
+  }
+
+  #bar {
+    display: block;
+    position: relative;
+    left: 170px;
+    margin-top: 10px;
+    font-size: 30px;
+  }
+
+  #close {
+    font-size: 30px;
+    margin-top: 10px;
+    position: relative;
+    left: 170px;
+    z-index: 2;
+    display: none;
+  }
+
+  #ulnav2 {
+    background-color: lightcoral;
+    height: 410px;
+    width: 60%;
+    position: relative;
+    margin-left:  -600px;
+    z-index: 1;
+    display: block;
+    border-radius: 5px;
+  }
+
+  #ulnav {
+    display: none;
+  }
+
+  #ulnav2 {
+    display: block;
+  }
+
+  ul li {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+
+  #homenav {
+    color:black;
+    margin-top: 20px;
+  }
+
+  .img-nav {
+    margin-left:15px;
+  }
+
+  ul li a i {
+    margin-top: 10px;
+    margin-left: 6px;
+  }
+
+  i {
+    font-size: 160%;
+  }
+
+  #icon1,
+  #icon2,
+  #icon3,
+  #icon4 {
+    font-size: 30px;
+  }
+
+  #container-home {
+    width: 100%;
+    padding: 0px;
+  }
+
+  .box1-home{
+    padding: 15px;
+  }
+
+  .h5-home {
+    font-size: 1em;
+    width: 100%;
+  }
+
+  .h2-home {
+    font-size: 1.7em;
+    margin-top: 2px;
+  }
+
+
+  .phome {
+    font-size: 1em;
+    width: 120%;
+    margin-top: 5px;
+  }
+
+  .img-home {
+    width: 43%;
+    margin-left: 20px;
+    margin-top: 60px;
+    height: 180px;
+  }
+
+  .bgimghome {
+    opacity: 90%;
+    width: 60%;
+    position: relative;
+    left: 50px;
+    top: 120px;
+    margin-left: -230px;
+    height: 150px;
+    z-index: -1;
+  }
+
+  .ul-home {
+    position: relative;
+    top: -20px;
+    width: 140%;
+    height: 25px;
+  }
+
+  .li1-home {
+    width: 190px;
+    height: 32px;
+  }
+
+  .a1-home {
+    font-size: 1em;
+    margin-left: 0px;
+    width: 110%;
+  }
+
+  .li2-home {
+    height: 30px;
+    width: 180px;
+  }
+
+  .a2-home {
+    font-size: 1em;
+    width: 110%;
+    margin-left: 5px;
+  }
+
+  #h3-box {
+    margin-top: 50px;
+  }
+
+  .p-about {
+    position: relative;
+    top: 55px;
+    right: 45px;
+    font-size: 12px;
+  }
+
+  #h3-about {
+    font-size: 24px;
+    position: relative;
+    top: 60px;
+    right: 45px;
+  }
+
+  .text-about {
+    width: 18%;
+    border-bottom: 1.9px solid red;
+    position: relative;
+    top: 58px;
+    right: 45px;
+  }
+
+  .background-image {
+    display: block;
+    background-color: red;
+    position: relative;
+    top: 22px;
+    left: -20px;
+    width: 110px;
+    margin-left: -200px;
+    height: 200px;
+  }
+
+  .img-about {
+    position: relative;
+    top:30px;
+    right: 75px;
+    width: 40%;
+    height: 200px;
+  }
+
+   .box-about {
+    width: 60%;
+    position: relative;
+    top: -10px;
+    left: 140px;
+   } 
+
+   .h2-about {
+    font-size: 27px;
+    margin-top: 10px;
+   }
+
+   .p2-about {
+    font-size:11px;
+    width: 110%;
+   }
+
+   .p3-about{
+    font-size: 15px;
+    width: 110%;
+   }
+
+   .p4-about {
+    font-size: 15px;
+    position: relative;
+    top: 0px;
+    right: 160px;
+    width: 180%;
+   }
+
+   .button-about {
+    position: relative;
+    width: 170%;
+    bottom: 35px;
+    right: 120px;
+   }
+
+   .a1-about {
+    font-size: 15px;
+    position: relative;
+    bottom: 0px;
+   }
+
+   .li1-about {
+    height:18px;
+    position: relative;
+    top: 25px;
+    right: 30px;
+    width: 110%;
+   }
+
+   .a2-about {
+    font-size: 15px;    
+    position: relative;
+    bottom: 2px;
+   }
+
+   .li2-about {
+    position: relative;
+    top: 25px;
+    right: 30px;
+    height: 14px;
+    width: 110%;
+   }
+
+   #h3-project {
+    position: relative;
+    bottom: 20px;
+    right: 45px;
+    font-size: 27px;
+   }
+
+   .underlane-project {
+    position: relative;
+    bottom: 20px;
+    width: 15%;
+    right: 45px;
+   }
+
+   .p-project {
+    position: relative;
+    bottom: 20px;
+    height: 120px;
+    width:90%;
+    right: 40px;
+    font-size: 20px;
+   }
+
+   #nav-project {
+    position: relative;
+    right:40px;
+    top:20px;
+   }
+
+  
+    #liproject1 {
+      font-size: 15px;
+    }
+
+    #liproject2 {
+      font-size: 15px;
+    }
+
+    #liproject3 {
+      font-size: 15px;
+    }
+
+    #liproject4 {
+      font-size: 15px;
+    }
+  
+    #boxweb {
+      position: relative;
+      top: 20px;
+      right: 13px;
+     } 
+
+    .web {
+      width: 30%;
+      height: 110px;
+    }
+
+    .projectweb1 {
+      margin-left: 5px;
+      margin-top: 5px;
+    }
+
+    .projectweb2 {
+      margin-left: 5px;
+    }
+
+    #boxlogo {
+      position: relative;
+      top: 20px;
+      right: 3px;
+    }
+    
+    .logo {
+      width: 30%;
+      height: 110px;
+    }
+
+    .projectlogo1 {
+      margin-top: 5px;
+      margin-left: 5px;
+    }
+
+    .projectlogo2 {
+      margin-left: 5px;
+    }
+
+    #boxgraphic {
+      position: relative;
+      top: 20px;
+      width: 148%;
+      right: 3px;
+    }
+
+    .projectgraphic1 {
+      margin-top: 5px;
+      margin-left: 5px;
+    }
+
+    .projectgraphic2 {
+      margin-left: 5px;
+    }
+
+    #boxux {
+      position: relative;
+      top: 20px;
+      right: 3px;
+      width: 148%;
+    }
+
+    .ux {
+      height: 200px;
+    }
+
+    .projectux1 {
+      margin-top: 5px;
+      margin-left: 5px;
+    }
+
+    .projectux2 {
+      margin-left: 5px;
+    }
+
+    #container-skill {
+      position: relative;
+      top: 20px;
+      width: 98%;
+      height: 760px;
+      margin-left: 3px;
+    }
+
+    .h2-skill {
+      font-size: 29px;
+    }
+
+    .underlineskill {
+      width: 16%;
+    }
+
+    .box-skill {
+      padding: 30px;
+    }
+
+    .kotakskill {
+      display: block;
+    }
+
+    .pskill {
+      font-size: 20px;
+      width: 100%;
+    }
+
+    .boxskill2 {
+      margin-top: 10px;
+    }
+
+    .html {
+      width: 120%;
+      margin-left: -10px;
+    }
+
+
+    .h5-html {
+      margin-left: -5px;
+    }
+
+    .h5html2 {
+      margin-left: 210px;
+    }
+
+
+    .css {
+      width: 120%;
+      margin-left: -10px;
+    }
+
+    .h5-css {
+      margin-left: -5px;
+      margin-top: 40px;
+    }
+
+    .h5css2 {
+      margin-left: 235px;
+    }
+
+    .js {
+      width: 120%;
+      margin-left: -10px;
+    }
+
+    .h5-js {
+      width: 140%;
+      margin-left: -5px;
+      margin-top: 40px;
+    }
+
+    .h5js2 {
+      margin-left: 162px;
+    }
+
+
+    .development {
+      width: 120%;
+      margin-left: -10px;
+    }
+    .h5-development {
+      width: 140%;
+      margin-top: 40px;
+    
+      margin-left: -5px;
+    }
+
+    .h5development2 {
+      margin-left: 86px;
+    }
+
+    .graphic{
+      width: 120%;
+      margin-left: -10px;
+    }
+    .h5-graphic {
+      width: 140%;
+      margin-left: -5px;
+      margin-top: 40px;
+    }
+
+    .h5graphic2 {
+      margin-left: 117px;
+    }
+
+
+    .webdesign {
+      width: 120%;
+      margin-left: -10px;
+    }
+    .h5-webdesign {
+      width: 140%;
+      margin-left: -5px;
+      margin-top: 40px;
+    }
+
+    .h5webdesign2{
+      margin-left: 153px;
+    }
+
+    #h3service {
+      position: relative;
+      top: 20px;
+      font-size: 27px;
+      right: 25px;
+    }
+
+    .underlineservice {
+      position:relative;
+      top: 20px;
+      width: 12%;
+      right: 25px;
+    }
+
+    .pservice {
+      position: relative;
+      top: 20px;
+      font-size: 21px;
+      width: 100%;
+      right: 25px;
+    }
+
+    .service{
+      position: relative;
+      top: 20px;
+      left: -55px;
+      display: block;
+    }
+
+    .webdesignservice {
+      width:70px;
+      height: 70px;
+      margin-left: 0px;
+    }
+
+    .iconweb {
+      width: 85%;
+      margin-left: 2px;
+      margin-top: -25px;
+    }
+
+    .h4webservice {
+      width: 100px;
+      position: relative;
+      right:20px;
+      font-size: 1em;
+    }
+
+    .pwebicon {
+      width: 165px;
+      position: relative;
+      right: 35px;
+      font-size: 13px;
+    }
+
+    .developmentdesignservice {
+      width: 70px;
+      height: 70px;
+      margin-left: 10px;
+      margin-top: 0px;
+    }
+
+    .icondevelopment {
+      width: 85%;
+      margin-left: 10px;
+      margin-top: -30px;
+    }
+
+    .h4developmentservice {
+      width: 100px;
+      position: relative;
+      right: 10px;
+      bottom: 10px;
+      font-size: 1em;
+    }
+
+    .pdevelopmenticon {
+      width: 165px;
+      position: relative;
+      right: 25px;
+      bottom: 13px;
+      font-size: 13px;
+    }
+
+    .boxservice1 {
+      display: flex;
+    }
+
+    .marketingservice {
+      margin-left: 0px;
+      margin-top: 10px;
+      width: 70px;
+      height: 70px;
+    }
+
+    .iconmarketing {
+      width: 85%;
+      margin-top: -25px;
+      margin-left: 7px;
+    }
+
+    .h4marketingservice {
+      width: 100px;
+      position: relative;
+      right: 19px;
+      bottom: 5px;
+      font-size: 1.1em;
+    }
+
+    .pmarketingicon {
+      width: 165px;
+      position: relative;
+      bottom: 8px;
+      right: 25px;
+      font-size: 13px;
+    }
+
+    .boxservice2 {
+      display: flex;
+    }
+
+    .boxservice3 {
+      display: flex;
+    }
+
+    .photographyservice {
+      width: 70px;
+      height: 70px;
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+
+    .iconphotography {
+      width: 85%;
+      margin-top: -25px;
+      margin-left: 15px;
+    }
+
+    .h4photographyservice{
+      margin-left: 0px;
+      position: relative;
+      bottom: 7px;
+      right: 13px;
+      font-size: 1.1em;
+    }
+
+    .pphotographyicon{
+      width: 165px;
+      position: relative;
+      right: 20px;
+      bottom: 10px;
+      font-size: 13px;
+    }
+
+    .copyservice {
+      width:70px;
+      height: 70px;
+      margin-left: 0px;
+      margin-top: 10px;
+    }
+
+    .iconcopy {
+      width: 85%;
+      margin-top: -25px;
+      margin-left: 2px;
+    }
+
+    .h4copyservice{
+      margin-left: 0px;
+      font-size: 1em;
+      width: 100px;
+      position: relative;
+      right: 20px;
+      bottom: 5px;
+    }
+
+    .pcopyicon{
+      width: 165px;
+      position: relative;
+      right: 25px;
+      bottom: 7px;
+      font-size: 13px;
+    }
+
+    .uxservice {
+      width: 70px;
+      height: 70px;
+      margin-top: 10px;
+    }
+
+    .iconux{
+      width: 85%;
+      margin-top: -25px;
+      margin-left: 18px;
+    }
+
+    .h4uxservice{
+      width: 165px;
+      position: relative;
+      right: 40px;
+      bottom: 3px;
+      font-size: 1em;
+    }
+
+    .puxicon{
+      width: 165px;
+      position: relative;
+      right: 22px;
+      bottom: 5px;
+      font-size: 13px;
+    }
+
+    .boxbg {
+      position: relative;
+      top: 30px;
+      left: -1px;
+      width: 100%;
+      height: 500px;
+      display: flex;
+    }
+
+    .boxangka {
+      position: relative;
+      left: -30px;
+      display: block;
+      margin-top: 20px;
+    }
+
+    .angka {
+      margin-top: 60px;
+    }
+
+    .boxhuruf{
+      position: relative;
+      left: -20px;
+      margin-top: 15px;
+      display: block;
+    }
+
+    .huruf1 {
+      margin-top: 77px;
+      font-size: 25px;
+    }
+
+    .huruf2{
+      margin-top: 76px;
+      margin-left:0px;
+      font-size: 25px;
+      width: 120%;
+    }
+
+    .huruf3 {
+      margin-top: 78px;
+      font-size: 25px;
+      width: 120%;
+      margin-left: 0px;
+    }
+
+    .huruf4 {
+      margin-top: 78px;
+      font-size: 25px;
+      width: 120%;
+      margin-left: 0px;
+    }
+
+    .h3client {
+      position: relative;
+      top: 20px;
+      right: 25px;
+      font-size:27px;
+      margin-top:60px;
+    }
+
+    .underlineclient {
+      position: relative;
+      top: 20px;
+      right: 25px;
+      display: block;
+      width: 14%;
+    }
+
+    .pclient {
+      position: relative;
+      top: 20px;
+      right: 25px;
+      font-size: 23px;
+      width: 90%;
+    }
+
+
+    .boxclient {
+      display: block;
+      position: relative;
+      top: 40px;
+      width: 95%;
+      right: 20px;
+    }
+
+    .kotakclient {
+      width: 90%;
+      height: 1400px;
+      position: relative;
+      top: 25px;
+      left: -22px;
+    }
+
+    .h4client1 {
+      margin-top: 50px;
+    }
+
+    .fclient1 {
+      margin-top: 10px;
+    }
+
+
+    .underlineclient1 {
+      width: 24.2%;
+    }
+
+    .h3update {
+      position: relative;
+      top: 25px;
+      right: 25px;
+      font-size: 27px;
+    }
+
+    .underlineupdate {
+      position: relative;
+      top: 25px;
+      right: 25px;
+      width: 20%;
+    }
+
+    .pupdate {
+      position: relative;
+      top: 20px;
+      right: 25px;
+      font-size: 22px;
+      width: 90%;
+    }
+
+    .containerupdate {
+      position: relative;
+      top: 25px;
+      right:13px;
+      width: 90%;
+      height: 1200px;
+    }
+
+    .pupdate2 {
+      margin-left: 41px;
+      font-size: 17px;
+    }
+
+    .pupdate3 {
+      margin-left: 41px;
+      font-size: 17px;
+    }
+
+    .boxupdate {
+      display: block;
+      position: relative;
+      right: 23px;
+      bottom: 40px;
+    }
+
+    .tgl {
+      position: relative;
+      top: 110px;
+      width: 35%;
+    }
+
+    .rapat1 {
+      width: 50%;
+    }
+
+    .imgupdate1 {
+      width: 90%;
+    }
+
+    .h4update2 {
+      margin-top: -20px;
+    }
+
+    .pupdate3 {
+      font-size: 20px;
+      width: 95%;
+    }
+
+    .pupdate2 {
+      font-size: 20px;
+      width: 90%;
+    }
+
+    .imgupdate2 {
+      position: relative;
+      bottom: 30px;
+      width: 90%;
+    }
+
+    .tgl2 {
+      width: 40%;
+    }
+
+    .rapat2 {
+      width: 50%;
+      position: relative;
+      top: 275px;
+    }
+
+    #h3contact {
+      position: relative;
+      top: 25px;
+      font-size: 27px;
+      right: 25px;
+    }
+
+    .underlinecontact {
+      position: relative;
+      top: 25px;
+      width: 16.5%;
+      right: 25px;
+    }
+
+    .pcontact {
+      position: relative;
+      top: 25px;
+      right: 25px;
+      font-size: 22px;
+      width: 80%;
+    }
+
+    .containercontact {
+      position: relative;
+      top: 25;
+      display: block;
+      width: 92%;
+      right: 17px;
+      height: 370px;
+    }
+
+
+    .box1contact {
+      position: relative;
+      right: 20px;
+    }
+    .acontact {
+      width: 210%;
+      display: flex;
+    }
+
+    .imgwa {
+      margin-top: 30px;
+      height: 50px;
+      width: 25%;
+    }
+
+    .h5contactme {
+      margin-top: 35px;
+      width: 120%;
+      display: block;
+      font-size: 16px;
+    }
+
+    .acontact2 {
+      width: 170%;
+    }
+
+    .imggmail{
+      width: 80%;
+      height: 60px;
+      margin-top: 0px;
+    }
+
+    .h5contactme2 {
+      margin-top: 18px;
+      margin-left: 5px;
+      font-size: 17px
+    }
+
+    .acontactme3 {
+      width: 180%;
+    }
+
+    .imglokasi {
+      width: 30%;
+      margin-left: -2px;
+      height:60px;
+    }
+
+    .h5contactme3 {
+      width: 100%;
+      margin-top: 25px;
+      display: flex;
+      font-size: 19px;
+    }
+
+
+    .box2contact {
+      background-color: whitesmoke;
+      position: relative;
+      top: 20px;
+      right: 60px;
+      border-radius: 2px;
+      height: 500px;
+      width: 100%;
+    }
+
+    input {
+      margin-top: 40px;
+      margin-left: 20px;
+      height: 40px;
+    }
+
+    textarea {
+      margin-top: 40px;
+      margin-left: 20px;
+      width: 90%;
+    }
+
+    .licontact {
+      margin-left: 20px;
+      margin-top: 55px;
+    }
+
+    hr {
+      position: relative;
+      top: 500px;
+    }
+
+    .containerend {
+      position: relative;
+      top: 500px;
+      right: 60px;
+      display: block;
+    }
+
+    .end1 {
+      width: 100%;
+      margin-left: 60px;
+    }
+
+    .h4end1 {
+      margin-top: 2px;
+      font-size: 25px;
+    }
+
+    .pend1 {
+      font-size: 20px;
+    }
+
+    .end2 {
+      margin-left: 60px;
+    }
+
+    .h5end2 {
+      margin-top: 20px;
+      font-size: 20px;
+      width: 300%;
+    }
+
+    .endhome {
+      font-size: 20px;
+    }
+
+    .pend2 {
+      font-size: 22px;
+    }
+
+    .h5end3 {
+      width: 300%;
+      margin-left:0px;
+      margin-top: 30px;
+      font-size: 20px;
+    }
+
+    .end3 {
+      margin-left: 30px;
+      width: 200%;
+    }
+
+    .h5end4 {
+      margin-left: 60px;
+    }
+
+    .pend33 {
+      font-size: 20px;
+      width: 100%;
+    }
+
+    .pend3 {
+      width: 50%;
+      font-size: 20px;
+    }
+
+    .end4 {
+      margin-top: 20px;
+    }
+
+    .h5end4 {
+      font-size:20px;
+    }
+
+    .pend44 {
+      margin-left: 60px;
+      font-size: 18px;
+    }
+
+    .pend4 {
+      margin-left: 60px;
+      font-size: 20px;
+      margin-top: 10px;
+    }
+
+
+    .last {
+      position: relative;
+      top:485px;
+      font-size: 15px;
+    }
+
+    #uphome {
+      position: relative;
+      z-index: 1;
+      left: 340px;
+      top: -15px;
+      height: 0px;
+    }
+
+    #upabout {
+      position: relative;
+      left: 135px;
+      bottom: 325px;
+      z-index: 1;
+      height: 0px;
+    }
+
+    #upproject {
+      position: relative;
+      left: 340px;
+      bottom: 590px;
+      z-index: 1;
+      height: 0px;
+    }
+
+    #upskill {
+      position: relative;
+      left: 310px;
+      bottom: 600px;
+      z-index: 1;
+      height: 0px;
+    }
+
+    #upservice {
+      position: relative;
+      left: 320px;
+      bottom: 890px;
+      z-index: 2;
+      height: 0px;
+    }
+
+    #upcontact {
+      position: relative;
+      left: 320px;
+      bottom: 700px;
+      z-index: 2;
+      height: 0px;
+    }
+
+    /* up mobile */
+.h51up1 {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  margin-left: 1px;
+  font-size: 20px;
+  position: relative;
+  bottom: 10px;
+}
+
+.h52up2 {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  margin-left: 1px;
+  font-size: 20px;
+}
+
+.h53up3 {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  margin-left: 1px;
+  font-size: 20px;
+  position: relative;
+  bottom: 10px;
+}
+
+.h54up4 {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  margin-left: 1px;
+  font-size: 20px;
+}
+
+.h55up5 {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  margin-left: 1px;
+  font-size: 20px;
+}
+
+.h56up6 {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  margin-left: 1px;
+  font-size: 20px;
+}
+
+#uphome2 {
+  position: relative;
+  left: 300px;
+  top: 60px;
+  font-size: 30px;
+  display: none;
+  height: 0px;
+}
+
+#upabout2 {
+  position: relative;
+  right: 170px;
+  bottom: 40px;
+  display:none;
+  height: 0px;
+}
+
+#upproject2 {
+  position: relative;
+  left: 310px;
+  bottom: 360px;
+  font-size:30px;
+  display: none;
+  height: 0px;
+}
+
+#upskill2 {
+  position: relative;
+  left: 310px;
+  bottom: 580px;
+  display: none;
+  height: 0px;
+}
+
+#upservice2 {
+  position: relative;
+  left:320px;
+  bottom: 640px;
+  display: none;
+  height: 0px;
+}
+
+#upcontact2 {
+  position: relative;
+  left: 300px;
+  bottom: 445px;
+  display: none;
+  height: 0px;
+}
+/* up mobile end */
+
+/* up desktop */
+#uphome {
+  display: none;
+}
+
+#upabout {
+  display: none;
+}
+
+#upproject {
+  display: none;
+}
+
+#upskill {
+  display: none;
+}
+
+#upservice {
+  display: none;
+}
+
+#upcontact {
+  display: none;
+}
+
+div a i {
+  font-size: 30px;
+}
+}
+  
+
